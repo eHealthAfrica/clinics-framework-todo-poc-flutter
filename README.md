@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Running on Web
+
+Make sure you run the example app on port 5000, since `localhost:5000` is
+whitelisted for Google authentication. To do so, run:
+
+```
+flutter run -d web-server --web-port 5000
+```
